@@ -1,5 +1,6 @@
-/*@import "./stylesheets/fade.css";*/
+@import "./stylesheets/fade.css";
 @import "./stylesheets/move-inputs.css";
+@import "./stylesheets/move-card-down.css";
 
 body {
   background: black;
