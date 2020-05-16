@@ -2,6 +2,7 @@
 @import "./stylesheets/move-inputs.css";
 @import "./stylesheets/move-card-down.css";
 @import "./stylesheets/vibrate-error-fields.css";
+@import "./stylesheets/squares.css";
 
 body {
   background: black;
