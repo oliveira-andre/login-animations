@@ -1,3 +1,6 @@
+/*@import "./stylesheets/fade.css";*/
+@import "./stylesheets/move-input.css";
+
 body {
   background: black;
 }
@@ -13,9 +16,8 @@ div {
   background: white;
   border-radius: 10px;
   position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, 50%);
+  top: 30%;
+  left: 40%;
   padding: 15px;
 }
 
@@ -60,3 +62,4 @@ div {
   white-space: nowrap;
   margin-left: 150px;
 }
+
