@@ -1,6 +1,7 @@
 @import "./stylesheets/fade.css";
 @import "./stylesheets/move-inputs.css";
 @import "./stylesheets/move-card-down.css";
+@import "./stylesheets/vibrate-error-fields.css";
 
 body {
   background: black;

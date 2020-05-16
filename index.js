@@ -3,7 +3,22 @@ const form = document.querySelector('form');
 
 btnLogin.addEventListener('click', (e) => {
   e.preventDefault();
-  form.classList.add('hidden');
+
+  const fields = [ ...document.querySelectorAll('.input-block input') ];
+  fields.forEach(field => {
+    if(field.value == '') form.classList.add('validate-error');
+  });
+
+  const formError = document.querySelector('.validate-error');
+  if(formError) {
+    form.addEventListener('animationend', (e) => {
+      if (e.animationName == 'vibrate') {
+        formError.classList.remove('validate-error');
+      }
+    });
+  } else {
+    form.classList.add('hidden');
+  }
 });
 
 form.addEventListener('animationstart', (e) => { 
